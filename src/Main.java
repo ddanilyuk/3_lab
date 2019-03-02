@@ -10,12 +10,13 @@ public class Main {
             /17 = 14
          */
 
-        String sentences = "Hello my dad. I wanna be successful! And it is very hard.";
-        System.out.println("Text: \n" + sentences);
+
+        String text= "Hello my dad. I wanna be successful! And it is very hard.";
+        System.out.println("Text: \n" + text);
 
 
         // Spliting
-        StringBuilder sentence = new StringBuilder(sentences);
+        StringBuilder sentence = new StringBuilder(text);
         String delimeter = "\\s";
         String[] arr_words = sentence.toString().split(delimeter);
 
