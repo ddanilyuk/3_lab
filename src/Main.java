@@ -17,14 +17,12 @@ public class Main {
             char[] arr_chars = word.toCharArray();
             for (int k = 0; k < arr_chars.length; k++) {
                 char temp = arr_chars[0];
-                char temp_l = Character.toLowerCase(temp);
-                if (k == 0 && Character.isLowerCase(temp)) {
+                if (k == 0) {
                     System.out.print(arr_chars[k]);
                 }
-                if (temp_l != arr_chars[k]) {
+                if (Character.toLowerCase(temp) != Character.toLowerCase(arr_chars[k])) {
                     System.out.print(arr_chars[k]);
                 }
-
             }
 
             System.out.print(" ");
