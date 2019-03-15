@@ -15,13 +15,12 @@ public class Main {
         for (String word : arr_words) {
 
             char[] arr_chars = word.toCharArray();
-            for (int k = 0; k < arr_chars.length; k++) {
-                char temp = arr_chars[0];
-                if (k == 0) {
-                    System.out.print(arr_chars[k]);
-                }
-                if (Character.toLowerCase(temp) != Character.toLowerCase(arr_chars[k])) {
-                    System.out.print(arr_chars[k]);
+            char temp = arr_chars[0];
+            System.out.print(temp);
+            temp = Character.toLowerCase(temp);
+            for (char arr_char : arr_chars) {
+                if (temp != Character.toLowerCase(arr_char)) {
+                    System.out.print(arr_char);
                 }
             }
 
