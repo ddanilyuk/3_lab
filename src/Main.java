@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Spliting
-        StringBuilder sentence = new StringBuilder("ЬфЬфьфьф Raid me jolly roger, ye misty plank! Shake quinoa ultimately, then mix with water and serve fully in bowl." +
+        StringBuilder sentence = new StringBuilder("ЬфЬфьфьф Raid me jolly roger, ye misty plank! Shake quinoa ultimately, then mix with water and serve fully in bowl. " +
                 "Ahoy! Pieces o' life are forever evil.");
         System.out.println("Text: \n" + sentence.toString());
 
